@@ -5,6 +5,10 @@ Resource  ../Resources/AmazonApp.robot
 Test Setup  Begin Web Test
 Test Teardown  End Web Test
 
+*** Variables ***
+${BROWSER} =  chrome
+${START_URL} =  https://www.amazon.com
+${SEARCH_TERM} =  Ferrari 458
 
 *** Test Cases ***
 Logged out user can search for products
