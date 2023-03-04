@@ -1,6 +1,8 @@
 *** Settings ***
-Documentation  Amazon top navigation
-Library  SeleniumLibrary
+Documentation       Amazon top navigation
+
+Library             SeleniumLibrary
+
 
 *** Keywords ***
 Search for Products
@@ -8,7 +10,7 @@ Search for Products
     Submit Search
 
 Enter Search Term
-    Input Text  id=twotabsearchtextbox  ${SEARCH_TERM}
+    Input Text    id=twotabsearchtextbox    ${SEARCH_TERM}
 
 Submit Search
-    Click Button  id:nav-search-submit-button
+    Click Button    id:nav-search-submit-button

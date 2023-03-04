@@ -1,11 +1,12 @@
 *** Settings ***
-Documentation    Amazon home page
-Library  SeleniumLibrary
+Documentation       Amazon home page
+
+Library             SeleniumLibrary
 
 
 *** Keywords ***
 Load
-    Go To  ${START_URL}
+    Go To    ${START_URL}
 
 Verify Page Loaded
-    Wait Until Page Contains  Search Amazon
+    Wait Until Page Contains    Search Amazon

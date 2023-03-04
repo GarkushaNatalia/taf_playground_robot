@@ -1,11 +1,13 @@
 *** Settings ***
-Documentation    User actions on Amazon
-Resource     ../Resources/PO/HomePage.robot
-Resource     ../Resources/PO/TopNav.robot
-Resource     ../Resources/PO/SearchResults.robot
-Resource     ../Resources/PO/Product.robot
-Resource     ../Resources/PO/Cart.robot
-Resource     ../Resources/PO/SignIn.robot
+Documentation       User actions on Amazon
+
+Resource            ../Resources/PO/HomePage.robot
+Resource            ../Resources/PO/TopNav.robot
+Resource            ../Resources/PO/SearchResults.robot
+Resource            ../Resources/PO/Product.robot
+Resource            ../Resources/PO/Cart.robot
+Resource            ../Resources/PO/SignIn.robot
+
 
 *** Keywords ***
 Search for Products
