@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation    Global settings for all tests
 Library  SeleniumLibrary
 
 

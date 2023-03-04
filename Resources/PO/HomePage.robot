@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation    Amazon home page
 Library  SeleniumLibrary
 
 

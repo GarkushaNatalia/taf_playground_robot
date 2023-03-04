@@ -1,5 +1,6 @@
 *** Settings ***
-Resource     ../Resources/PO/LandingPage.robot
+Documentation    User actions on Amazon
+Resource     ../Resources/PO/HomePage.robot
 Resource     ../Resources/PO/TopNav.robot
 Resource     ../Resources/PO/SearchResults.robot
 Resource     ../Resources/PO/Product.robot
@@ -8,8 +9,8 @@ Resource     ../Resources/PO/SignIn.robot
 
 *** Keywords ***
 Search for Products
-    LandingPage.Load
-    LandingPage.Verify Page Loaded
+    HomePage.Load
+    HomePage.Verify Page Loaded
     TopNav.Search for Products
     SearchResults.Verify Search Completed
 

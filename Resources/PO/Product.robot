@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation    Amazon product page
 Library  SeleniumLibrary
 
 *** Keywords ***

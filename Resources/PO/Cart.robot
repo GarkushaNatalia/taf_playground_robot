@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation    Amazon cart
 Library  SeleniumLibrary
 
 *** Keywords ***
