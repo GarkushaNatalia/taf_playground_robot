@@ -25,13 +25,11 @@ Logged out user should be able to view a product
     AmazonApp.Select Product from Search Results
 
 Logged out user should be able to add product to cart
-    [Tags]    smoke
     AmazonApp.Search for Products
     AmazonApp.Select Product from Search Results
     AmazonApp.Add Product to Cart
 
 Logged out user should be asked to sign in to check out
-    [Tags]    smoke
     AmazonApp.Search for Products
     AmazonApp.Select Product from Search Results
     AmazonApp.Add Product to Cart
